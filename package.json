@@ -1,0 +1,18 @@
+{
+  "name": "survails-server",
+  "version": "1.0.0",
+  "description": "server side of the project",
+  "main": "index.js",
+  "engines": {
+    "node": "12.18.3",
+    "npm": "6.14.7"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Maen Ibreigheith",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
