@@ -3,7 +3,7 @@ const express = require('express'); // CommonJS Modules
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send({ hi: 'there' });
+  res.send({ message: 'Hi There!!' });
 });
 
 const PORT = process.env.PORT || 5000;
